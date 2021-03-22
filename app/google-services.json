@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "586307444870",
+    "project_id": "pythian-games",
+    "storage_bucket": "pythian-games.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586307444870:android:4555e82821e8f9437ab107",
+        "android_client_info": {
+          "package_name": "com.example.pythian_games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586307444870-56qbn2jg0srfqtl43d5cf9gpgua5p1vc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pythian_games",
+            "certificate_hash": "6076d99f8a754eb61711c2b0fb346e218cae591c"
+          }
+        },
+        {
+          "client_id": "586307444870-duku1map30tn09lofpa6eqtpj2t8honk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZoyWSbdeQYNVs01T2lQ8JU2g4PGwk1zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586307444870-duku1map30tn09lofpa6eqtpj2t8honk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

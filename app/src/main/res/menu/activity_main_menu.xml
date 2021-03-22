@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ScanFragment"
+        android:icon="@drawable/ic_camera"
+        android:title="Scan"/>
+    <item
+        android:id="@+id/CardFragment"
+        android:icon="@drawable/ic_baseline_question_answer_24"
+        android:title="Card"/>
+    <item
+        android:id="@+id/DeckFragment"
+        android:icon="@drawable/ic_card_deck"
+        android:title="Deck"/>
+    <item
+        android:id="@+id/ClearingFragment"
+        android:icon="@drawable/ic_brush"
+        android:title="Clearing"/>
+
+</menu>

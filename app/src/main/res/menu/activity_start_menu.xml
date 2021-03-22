@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/JoinFragment"
+        android:icon="@drawable/ic_arrow_forward"
+        android:title="Join"/>
+    <item
+        android:id="@+id/NewGameFragment"
+        android:icon="@drawable/ic_add"
+        android:title="New Game"/>
+
+</menu>

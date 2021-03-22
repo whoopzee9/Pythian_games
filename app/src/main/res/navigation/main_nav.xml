@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/ScanFragment">
+
+    <fragment
+        android:id="@+id/ScanFragment"
+        android:name="com.example.pythian_games.fragments.mainFragments.ScanFragment"
+        android:label="Scan"
+        tools:layout="@layout/fragment_scan" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/CardFragment"
+        android:name="com.example.pythian_games.fragments.mainFragments.CardFragment"
+        android:label="Card"
+        tools:layout="@layout/fragment_card" />
+
+    <fragment
+        android:id="@+id/DeckFragment"
+        android:name="com.example.pythian_games.fragments.mainFragments.DeckFragment"
+        android:label="Deck"
+        tools:layout="@layout/fragment_deck"/>
+    <fragment
+        android:id="@+id/ClearingFragment"
+        android:name="com.example.pythian_games.fragments.mainFragments.ClearingFragment"
+        android:label="Clearing"
+        tools:layout="@layout/fragment_clearing"/>
+
+</navigation>
