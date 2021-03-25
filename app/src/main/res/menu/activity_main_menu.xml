@@ -6,10 +6,6 @@
         android:icon="@drawable/ic_camera"
         android:title="Scan"/>
     <item
-        android:id="@+id/CardFragment"
-        android:icon="@drawable/ic_baseline_question_answer_24"
-        android:title="Card"/>
-    <item
         android:id="@+id/DeckFragment"
         android:icon="@drawable/ic_card_deck"
         android:title="Deck"/>
