@@ -1,7 +1,10 @@
 package com.example.pythian_games.viewModels
 
 import androidx.lifecycle.ViewModel
+import com.example.pythian_games.repositories.RegistrationRepository
 
 class RegistrationViewModel : ViewModel() {
-    // TODO: Implement the ViewModel
+    var repository = RegistrationRepository.instance
+
+
 }

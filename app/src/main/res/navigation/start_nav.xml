@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/JoinFragment"
-        android:name="com.example.pythian_games.fragments.loginFragments.JoinFragment"
+        android:name="com.example.pythian_games.fragments.roomFragments.JoinFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_join">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/NewGameFragment"
-        android:name="com.example.pythian_games.fragments.loginFragments.NewGameFragment"
+        android:name="com.example.pythian_games.fragments.roomFragments.NewGameFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_new_game">
 

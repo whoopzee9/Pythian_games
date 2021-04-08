@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/LoginFragment"
+    android:id="@+id/auth_nav">
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.example.pythian_games.fragments.authFragments.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+
+    </fragment>
+    <fragment
+        android:id="@+id/RegistrationFragment"
+        android:name="com.example.pythian_games.fragments.authFragments.RegistrationFragment"
+        android:label="Registration"
+        tools:layout="@layout/fragment_registration">
+
+    </fragment>
+</navigation>

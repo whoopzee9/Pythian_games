@@ -1,4 +1,4 @@
-package com.example.pythian_games.fragments.loginFragments
+package com.example.pythian_games.fragments.roomFragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
-import androidx.navigation.fragment.findNavController
 import com.example.pythian_games.R
 
 /**

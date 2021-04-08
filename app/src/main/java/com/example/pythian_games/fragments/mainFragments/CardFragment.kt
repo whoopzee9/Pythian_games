@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import com.example.pythian_games.R
-import com.example.pythian_games.viewModels.RegistrationViewModel
+import com.example.pythian_games.viewModels.CardViewModel
 
 class CardFragment : Fragment() {
 
@@ -16,7 +16,7 @@ class CardFragment : Fragment() {
         fun newInstance() = CardFragment()
     }
 
-    private lateinit var viewModel: RegistrationViewModel
+    private lateinit var viewModel: CardViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -27,7 +27,7 @@ class CardFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProviders.of(this).get(RegistrationViewModel::class.java)
+        viewModel = ViewModelProviders.of(this).get(CardViewModel::class.java)
         // TODO: Use the ViewModel
 
         //TEST
