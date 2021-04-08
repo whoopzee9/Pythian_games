@@ -27,7 +27,7 @@ class JoinFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        view.findViewById<Button>(R.id.button_first).setOnClickListener {
+        view.findViewById<Button>(R.id.button_first).setOnClickListener { //TODO change to data binding
             val intent = Intent(context, MainActivity::class.java)
             startActivity(intent)
         }
