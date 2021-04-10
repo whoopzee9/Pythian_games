@@ -23,12 +23,4 @@ class JoinFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_join, container, false)
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
-        view.findViewById<Button>(R.id.button_first).setOnClickListener { //TODO change to data binding
-            val intent = Intent(context, MainActivity::class.java)
-            startActivity(intent)
-        }
-    }
 }
