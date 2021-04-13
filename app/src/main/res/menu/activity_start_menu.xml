@@ -9,5 +9,9 @@
         android:id="@+id/NewGameFragment"
         android:icon="@drawable/ic_add"
         android:title="New Game"/>
+    <item
+        android:id="@+id/ProfileFragment"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"/>
 
 </menu>

@@ -10,19 +10,18 @@
         android:name="com.example.pythian_games.fragments.roomFragments.JoinFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_join">
-
-        <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/NewGameFragment" />
     </fragment>
     <fragment
         android:id="@+id/NewGameFragment"
         android:name="com.example.pythian_games.fragments.roomFragments.NewGameFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_new_game">
+    </fragment>
 
-        <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/JoinFragment" />
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="com.example.pythian_games.fragments.roomFragments.ProfileFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_profile">
     </fragment>
 </navigation>
