@@ -16,4 +16,8 @@ class CardViewModel : ViewModel() {
         repository.setCurrentQuestion(cardNum)
     }
 
+    fun handleAnswer(answeredNum: Int) {
+
+    }
+
 }

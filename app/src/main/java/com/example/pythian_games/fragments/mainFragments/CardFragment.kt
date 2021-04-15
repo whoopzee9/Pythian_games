@@ -6,7 +6,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -67,6 +69,23 @@ class CardFragment : Fragment() {
         println(tv.text)
         println("---------------------------------")
 
+
+        val b1 = requireView().findViewById<Button>(R.id.btn_ans1)
+        val b2 = requireView().findViewById<Button>(R.id.btn_ans2)
+        val b3 = requireView().findViewById<Button>(R.id.btn_ans3)
+        val b4 = requireView().findViewById<Button>(R.id.btn_ans4)
+        b1.setOnClickListener { handleAnswer(1) }
+        b2.setOnClickListener { handleAnswer(2) }
+        b3.setOnClickListener { handleAnswer(3) }
+        b4.setOnClickListener { handleAnswer(4) }
+    }
+
+    private fun handleAnswer(answeredNum: Int) {
+        if (answeredNum == viewModel.getCurrentQuestion().question.correctAns) {
+            Toast.makeText(context, "Правильный ответ!", Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(context, "Неправильный ответ! Попробуйте ещё", Toast.LENGTH_SHORT).show()
+        }
     }
 
 }
