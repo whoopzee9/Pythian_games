@@ -59,13 +59,13 @@ class RegistrationFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(RegistrationViewModel::class.java)
 
-        val btn = requireView().findViewById<Button>(R.id.btn_registration)
+        /*val btn = requireView().findViewById<Button>(R.id.btn_registration)
         btn.setOnClickListener {
             onRegistrationClicked(it)
-        }
+        }*/
     }
 
-    private fun onRegistrationClicked(view: View) {
+    /*private fun onRegistrationClicked(view: View) {
         val name = viewModel.getName().value
         val email = viewModel.getEmail().value
         val password = viewModel.getPassword().value
@@ -86,6 +86,6 @@ class RegistrationFragment : Fragment() {
         } else {
             Toast.makeText(requireContext(), "Passwords are not the same!", Toast.LENGTH_SHORT).show()
         }
-    }
+    }*/
 
 }

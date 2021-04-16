@@ -24,15 +24,6 @@ class StartActivity : AppCompatActivity() {
 
         bottomNav?.setupWithNavController(navController)
 
-        val auth = FirebaseAuth.getInstance()
-        //auth.signOut()
-
-        if (auth.currentUser == null) {
-            val intent = Intent(this, AuthActivity::class.java)
-            startActivity(intent)
-        }
-
-
     }
 
     fun onJoinClicked(view: View) {

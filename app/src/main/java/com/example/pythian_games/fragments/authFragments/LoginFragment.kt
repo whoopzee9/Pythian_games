@@ -54,13 +54,13 @@ class LoginFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(LoginViewModel::class.java)
         // TODO: Use the ViewModel
-        val btn = requireView().findViewById<Button>(R.id.btn_login)
+        /*val btn = requireView().findViewById<Button>(R.id.btn_login)
         btn.setOnClickListener {
             onLoginClicked(it)
-        }
+        }*/
     }
 
-    private fun onLoginClicked(view: View) {
+    /*private fun onLoginClicked(view: View) {
         val email = viewModel.getEmail().value
         val password = viewModel.getPassword().value
         if (email?.isNotEmpty() == true && password?.isNotEmpty() == true) {
@@ -68,6 +68,7 @@ class LoginFragment : Fragment() {
                 if (it.isSuccessful) {
                     val intent = Intent(context, StartActivity::class.java)
                     startActivity(intent)
+                    finish()
                 } else {
                     Toast.makeText(context, "Email or password is incorrect!", Toast.LENGTH_SHORT).show()
                 }
@@ -75,6 +76,6 @@ class LoginFragment : Fragment() {
         } else {
             Toast.makeText(context, "Missing data!", Toast.LENGTH_SHORT).show()
         }
-    }
+    }*/
 
 }
