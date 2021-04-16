@@ -8,7 +8,6 @@ import com.example.pythian_games.R
 import com.example.pythian_games.fragments.mainFragments.CardFragment
 import com.google.android.gms.vision.Detector
 import com.google.android.gms.vision.text.TextBlock
-import kotlinx.android.synthetic.main.fragment_card.view.*
 
 class OcrDetectorProcessor(val nav: NavController) : Detector.Processor<TextBlock> {
     override fun release() {
